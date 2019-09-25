@@ -20,7 +20,7 @@ def find_relays( target_test, target_pin, connection, assigments ) :
         if(( target_pin == current_relay_pin ) and ( current_relay_pin_assigned_to in target_connections )) :
             
             relays.append( rel[ rel.index( "#" ) + len( "#" ) : ])
-        
+            
     return relays
 
 if( __name__ == "__main__" ):

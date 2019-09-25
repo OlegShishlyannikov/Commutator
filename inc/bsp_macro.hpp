@@ -2,21 +2,20 @@
 #define BSP_MACRO_HPP
 
 #include "stm32f10x_conf.h"
+#include <cstdint>
 #include <cstdio>
 #include <cstdlib>
-#include <cstdio>
 #include <cstring>
 #include <ctime>
-#include <cstdint>
 
-#include <string>
-#include <vector>
-#include <map>
+#include <algorithm>
 #include <bitset>
 #include <iostream>
-#include <sstream>
 #include <iterator>
-#include <algorithm>
+#include <map>
+#include <sstream>
+#include <string>
+#include <vector>
 
 /* DEBUG_USART GPIO settings */
 #define DEBUG_USART_GPIO_PORT GPIOA
